@@ -18,7 +18,7 @@ public class UserController {
 	@RequestMapping("/get")
 	public String getUserById(Integer userId,Model m){
 		UserBean userBean = userService.getUserById(userId);
-		System.out.println("helloworld");
+		System.out.println("hell");
 		System.out.println(userBean);
 		return "index.jsp";
 	}
